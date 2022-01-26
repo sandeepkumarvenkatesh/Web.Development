@@ -5,7 +5,7 @@ I am a Mechanical Engineer, learning Web Development-HTML5, CSS and Javascript.
 You can see all my exercise files in my Github account, link is located towards left fo the page.
 
 Here are the list of projects I am working.
-[Project 1](https://sandeepkumarvenkatesh.github.io/Web.Development/)
+- [Project 1](https://sandeepkumarvenkatesh.github.io/Web.Development/)
 
 You can use the [editor on GitHub](https://github.com/sandeepkumarvenkatesh/Web.Development/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
