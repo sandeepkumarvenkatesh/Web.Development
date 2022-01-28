@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Exercise 6</title>
+</head>
+<body>
+	<h1>Exercise 6 - Forms</h1>
+
+	<h3>Text Input</h3>
+	<form action="https://www.google.com/">
+		<p>Username: <input type="text" name="username" size="15" maxlength="30"></p>
+		<p>Password:<input type="password" name="password" size="15" maxlength="30"></p>
+		<p>what do you think of the pic?</p>
+		<textarea name="comments" cols="20" rows="4">Enter your comments</textarea>
+		
+	</form>
+
+	<h3>Radio Button</h3>
+	<form action="https://www.google.com/">
+		<p>
+			Please select your favourite genre:
+			<br>
+			<input type="radio" name="genre" value="rock" checked="checked"> Rock
+			<input type="radio" name="genre" value="pop"> Pop
+			<input type="radio" name="genre" value="jazz"> Jazz
+		</p>
+		
+	</form>
+
+	<h3>Checkbox</h3>
+ 	<form action="https://www.google.com/">
+		<p>
+			Please select your favourite genre:
+			<br>
+			<input type="Checkbox" name="genre" value="rock" checked="checked"> Rock
+			<input type="Checkbox" name="genre" value="pop"> Pop
+			<input type="Checkbox" name="genre" value="jazz"> Jazz
+		</p>
+		
+	</form>
+
+	<h3>Drop Down List Box</h3>
+	<p>What device do you listen to music on?</p>
+	<select name="devices">
+		<option value="ipod">Ipod</option>
+		<option value="ipad">Ipad</option>
+		<option value="comp">Comp</option>
+	</select>
+
+	<hr>
+
+	<h3>Multiple Select Box</h3>
+
+	<form action="https://www.google.com/">
+		<p>>Do you play any of the following instruments? (You can select more than one option by holding down control on a PC or command key on a Mac while selecting different options.)</p>
+		<select name="instruments" size="3" multiple="Multiple">
+			<option value="guitar" selected>Guitar</option>
+			<option value="drums">Drums</option>
+			<option value="violin">violin</option>
+		</select>
+	</form>
+
+	<h3>File Input Box</h3>
+	<form action="https://google.com">
+		<p>Upload your documents</p>
+		<input type="file" name="document"><br>
+		<input type="submit" name="upload">
+		
+	</form>
+
+	<h3>Submit Button</h3>
+	<form action="https://google.com">
+		<p>Subscribe to our mailing list</p>
+		<input type="text" name="email">
+		<input type="submit" name="subscribe">
+		
+	</form>
+
+	<h3>Image Button</h3>
+	<form action="https://google.com">
+		<input type="text" name="email">
+		<input type="image" src="images/subscribe.png" width="100" height="30">
+		
+	</form>
+
+	<h3>Button & hidden Controls</h3>
+	<form action="https://google.com">
+		<button>
+		<img src="images/Add.png" alt="add" width="10" height="10">Add
+		</button>
+		<input type="hidden" name="bookmark" value="lyrics">
+		
+	</form>
+
+	<h3>Labelling Form Controls</h3>
+	<label>Age: <input type="text" name="age"></label>
+	<br>
+	Gender: <input id="female" type="radio" name="gender" value="f">
+	<label for="female">Female</label>
+	<input id="male" type="radio" name="gender" value="m">
+	<label for="male">Male</label>
+
+	<h3>Grouping Form Elements</h3>
+	<fieldset>
+		<legend>Contact Details</legend>
+		<label>Email:
+			<br>
+			<input type="text" name="email"></label> <br>
+		<label>Mobile
+			<br>
+			<input type="text" name="mobile"></label> <br>
+
+		<label>Telephone: <br> 
+			<input type="text" name="telephone"></label>
+	</fieldset>
+
+	<h3>Form Validation</h3>
+	<form action="https://www.google.com" method="post">
+		<label for="username">Username</label>
+		<input type="text" name="username" required> <br>
+		<label for="password">Password</label>
+		<input type="password" name="password" required>
+		<input type="submit" name="Submit">
+
+	</form>
+
+	<h3>HTML5: Date Input</h3>
+	<form action="https://www.google.com" method="post">
+		<label for="username">Departure Date</label>
+		<input type="date" name="depart">
+		<input type="submit" name="Submit">
+		
+	</form>
+
+	<h3>Email & URL Input</h3>
+	<form action="https://www.google.com">
+		<p>Please enter email address</p>
+		<input type="email" name="email">
+		<input type="submit" value="Submit">
+
+	</form>
+
+	<form action="https://www.google.com">
+		<p>Please enter the website address</p>
+		<input type="url" name="website">
+		<input type="submit" value="Submit">
+		
+	</form>
+
+	<h3>HTML5: Search Input</h3>
+	<form action="https://google.com">
+		<p>Search</p>
+		<input type="Search" name="Search">
+		<input type="submit" value="Search">
+		
+	</form>
+
+	<form action="https://google.com">
+		<p>Search</p>
+		<input type="Search" name="Search" placeholder="Enter keyword">
+		<input type="submit" value="Search">
+		
+	</form>
+	<hr>
+
+	<h3>Example Form</h3>
+	<form action="https://google.com">
+		<fieldset>
+			<legend>Your Details</legend>
+			<label>Name</label>
+			<input type="text" name="name"> <br>
+			<label>Email</label>
+			<input type="email" name="email">
+		</fieldset>
+		
+		<fieldset>
+			<legend>Your Review</legend>
+			<p>How did you hera about us?
+			<select name="websites" id="hear about">
+				<option value="google">Google</option>
+				<option value="website">website</option>
+				<option value="other">Other</option>
+				</p>
+			</select>
+
+			<p>Would you visit again?</p>
+			<input type="radio" name="option" value="Yes"> Yes
+			<input type="radio" name="option" value="No">No
+			<input type="radio" name="option" value="May be">May be
+
+			<p>Comments</p>
+			<textarea name="comments" cols="20" rows="4">Enter your comments</textarea>
+			<br>
+			<input type="Checkbox" name="subscribe">Sign me up for updates <br>
+			<input type="submit" value="Submit">
+		</fieldset>
+	</form>
+
+
+</body>
+</html>
