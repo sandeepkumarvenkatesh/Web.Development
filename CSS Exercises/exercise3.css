@@ -1,0 +1,14 @@
+div{
+	width: 30%;
+	background: #00ffff;
+	height: 400px;
+
+	/*
+	display: inline-block;
+	float: left;
+	overflow: scroll; 
+	*/
+
+	display: table-cell;
+	text-align: left;
+}
