@@ -56,3 +56,33 @@ Header {
 	right: 10px;
 	background-color: #707070;
 }
+
+a{
+	width: 100px;
+	text-align: center;
+	padding: 4x;
+	text-decoration: none;
+	margin:0 auto;
+	margin-top: 10px;
+	display: inline-block;
+}
+
+a:hover {
+	color: #0006cc;
+}
+
+a:focus {
+	color: #0006cc;
+}
+
+a:active {
+	border: 3px solid;
+}
+
+ul{
+	list-style: square;
+}
+
+*{
+	border: 5px;
+}
