@@ -1,6 +1,6 @@
 ## Welcome to Sandeep's GitHub Page
 
-I am a Mechanical Engineer, learning Web Development-HTML5, CSS3 and Javascript.
+I am a Mechanical Engineer, learning Web Development-HTML 5, CSS 3 and Javascript.
 I have experiece in design of mechanical components and assemblies, lately i got introduced to Wix website creator.
 I created few web pages using Wix.com, then got interested in web development.
 Here I am training myself in web development and learing new topics every day.
