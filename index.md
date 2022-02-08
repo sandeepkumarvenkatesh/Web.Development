@@ -9,6 +9,7 @@ You can see all my exercise files and project codes in my Github account, link i
 
 Here are the list of projects I am working on.
 - [Exercise Project 1](https://sandeepkumarvenkatesh.github.io/exercise.project1/)
+- [Exercise Project 2](https://sandeepkumarvenkatesh.github.io/exercise.project2/)
 
 <!-- You can use the [editor on GitHub](https://github.com/sandeepkumarvenkatesh/Web.Development/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
