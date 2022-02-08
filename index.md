@@ -7,7 +7,7 @@ Here I am training myself in web development and learing new topics every day.
 
 You can see all my exercise files and project codes in my Github account, link is located towards left fo the page.
 
-Here are the list of projects I am working on.
+Here are the list of projects I have worked on.
 - [Exercise Project 1](https://sandeepkumarvenkatesh.github.io/exercise.project1/)
 - [Exercise Project 2](https://sandeepkumarvenkatesh.github.io/exercise.project2/)
 
