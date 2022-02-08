@@ -1,0 +1,48 @@
+.head{
+	text-align: center;
+}
+
+
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 25%;
+}
+
+body{
+	font-family: sans-serif;
+}
+h1{
+	color: #337ab7;
+}
+
+h2{
+	color: green;
+	font-style: italic;
+}
+
+.points{
+	background-color: #D6D6D6;
+	display: block;
+	line-height: 1.3;
+	text-align: justify;
+
+}
+
+.quote{
+	margin-left: 500px;
+
+}
+
+footer{
+	
+	
+	background: #BBCDFB;
+	display: flex;	
+	align-items: center;
+	justify-content: center;
+
+
+
+}
