@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Exercise 6 Events and this</title>
+	<link rel="stylesheet" type="text/css" href="Exercise6.css">
+	<script type="text/javascript" src="exercise6.js"></script>
+</head>
+<body>
+	<h1>Exercise 6 Events and this</h1>
+	<div id="message">Hover over an image to display alt text.</div>
+
+	<img src="image/coffee.jpg" class="preview" alt="Coffee on a table" onmouseover="showProperties(this)" onmouseleave="document.getElementById('message').innerHTML='Hover over an image';">
+
+	<img src="image/finch.jpg" class="preview" alt="Sitting Bird" onmouseover="showProperties(this)" onmouseleave="document.getElementById('message').innerHTML='Hover over an image';">
+
+	<img src="image/woman.jpg" class="preview" alt="Women standing" onmouseover="showProperties(this)" onmouseleave="document.getElementById('message').innerHTML='Hover over an image';">
+
+</body>
+</html>
