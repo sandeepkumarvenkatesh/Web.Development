@@ -1,0 +1,40 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	background-image: url("images/snow.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	text-align: center;
+	font-family: 'redressed', cursive;
+	margin-top: 100px;
+}
+
+p{
+	font-size: 100px;
+}
+h1{
+	font-size: 50px;
+	font-weight: normal;
+}
+.countdown-container{
+	display: inline-flex;
+	flex-wrap: wrap;
+	justify-content: center;
+
+}
+
+.big-text{
+	font-size: 6rem;
+	line-height: 1;
+	margin: 0 2rem;
+	font-weight: bold;
+	
+}
+
+span{
+	font-size: 2rem;
+}
