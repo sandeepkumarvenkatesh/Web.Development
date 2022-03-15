@@ -1,0 +1,42 @@
+.card{
+	width: 320px;
+	border: 2px solid black;
+	padding: 15px;
+	margin: 15px;
+	border-radius: 16px;
+	text-align: left;
+	box-shadow: 0 0 20px seagreen;
+}
+
+.imag{
+	width: 120px;
+	height: 120px;
+	border-radius: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	
+}
+
+.container{
+	font-family: sans-serif;
+	justify-content: center;
+	display: flex;
+
+}
+
+.btn{
+	background-color: black;
+	color: white;
+	text-decoration: none;
+	padding: 7px 16px;
+	display: inline-block;
+}
+
+p{
+	text-align: justify;
+}
+
+h1{
+	text-align: center;
+}
